@@ -8,7 +8,7 @@ from scipy import stats
 from stable_baselines3 import PPO
 
 import prepare_smhi_datasets as sp
-from v5_4.solar_battery_env_v5_4 import SolarBatteryEnv
+from solar_battery_env_v5_4 import SolarBatteryEnv
 
 
 def run_test_ppo(pv_file = "../../regression/smhi_2026_predicted_pv_output_with_time.csv",

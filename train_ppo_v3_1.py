@@ -3,7 +3,7 @@ import numpy as np
 from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import DummyVecEnv
 
-from v5_4.solar_battery_env_v5_4 import SolarBatteryEnv
+from solar_battery_env_v5_4 import SolarBatteryEnv
 import prepare_smhi_datasets as sp
 
 def run_ppo_training(pv_file = "../../regression/smhi_2025_predicted_pv_output_with_time.csv",
