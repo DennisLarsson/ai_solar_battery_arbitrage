@@ -7,8 +7,8 @@ from pandas.core import sample
 from scipy import stats
 from stable_baselines3 import PPO
 
-import prepare_smhi_datasets as sp
-from solar_battery_env_v5_4 import SolarBatteryEnv
+import prepare_datasets as sp
+from solar_battery_env import SolarBatteryEnv
 
 
 def run_test_ppo(pv_file = "../../regression/smhi_2026_predicted_pv_output_with_time.csv",

@@ -3,8 +3,8 @@ import numpy as np
 from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import DummyVecEnv
 
-from solar_battery_env_v5_4 import SolarBatteryEnv
-import prepare_smhi_datasets as sp
+from solar_battery_env import SolarBatteryEnv
+import prepare_datasets as sp
 
 def run_ppo_training(pv_file = "../../regression/smhi_2025_predicted_pv_output_with_time.csv",
                      sp_file = "../../data/energy-charts_Electricity_production_and_spot_prices_in_Sweden_in_2025.csv",

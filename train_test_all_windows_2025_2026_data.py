@@ -3,8 +3,8 @@ import os
 
 sys.path.insert(0, os.getcwd())
 
-from train_ppo_v3_1 import run_ppo_training
-from test_ppo_v3_1 import run_test_ppo
+from train_ppo import run_ppo_training
+from test_ppo import run_test_ppo
 
 base_dir = os.getcwd()
 
